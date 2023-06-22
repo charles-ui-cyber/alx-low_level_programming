@@ -1,8 +1,10 @@
 #include <stdio.h>
- /**
-  * main - Aprogram that prints a line with pits function
-  * Return: Always 0 (Sucess)
-  */
+/**
+ * main - Entry point
+ * This program prints the line "Programming is like building
+ * a multilingual puzzle."
+ * * Return: Always 0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
