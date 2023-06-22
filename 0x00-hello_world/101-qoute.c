@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * This program prints the line "and that piece of art is
- * useful" - Dora Korpar, 2015-10-19"
+ * useful - Dora Korpar, 2015-10-19"
  * Return: Always 1 (Success)
  */
 int main(void)
