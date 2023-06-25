@@ -15,7 +15,7 @@ for (tens = '0'; tens <= '9'; tens++)
 {
 for (ones = '0'; ones <= '9'; ones++)
 {
-if (!((ones == tens) || (tens > ones) || (tens > ones) || (hundreds > tens)))
+if (!((ones == tens)  && (hundreds > tens)))
 {
 putchar(hundreds);
 putchar(tens);
