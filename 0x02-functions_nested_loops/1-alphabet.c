@@ -1,7 +1,10 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
+
 
 /**
+ * main - Entry point
  * print_alphabet - Entry point
  * Return:0
  */
@@ -12,11 +15,13 @@ void print_alphabet(void)
 
 	while (c <= 'z')
 	{
-_putchar(c);
+ 
+		
+	putchar(c);
  c++;
 
 	}
- _putchar('\n');
+putchar('\n');
 
 }
 
