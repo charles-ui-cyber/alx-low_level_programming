@@ -6,12 +6,17 @@
  * @c: Character to be checked
  * Return: if character is lowercase, otherwise
  */
-int _putchar(char c);
-int islower(int c)
+void test_islower(int n)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
-else
+int r;
+
+r = _islower(n);
+putchar(r + '0');
+putchar('\n');
+}
+int main(void)
+{
+test_islower('H');
 return (0);
 }
 
