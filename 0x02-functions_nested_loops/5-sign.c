@@ -10,8 +10,6 @@
  *
  * -1 and prints - if n is less than zero
  */
-int _putchar(int c);
-
 int print_sign(int n)
 {
 	if (n > 0)

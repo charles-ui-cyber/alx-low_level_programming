@@ -5,8 +5,6 @@
  *
  * Return: Always 0.
  */
-int _putchar(int c);
-
 int main(void)
 {
     int r;
