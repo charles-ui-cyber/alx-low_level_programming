@@ -1,6 +1,3 @@
-#ifndef ELF_HEADER_HELPERS_H
-#define ELF_HEADER_HELPERS_H
-#include "elf_header_helpers.h"
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -28,7 +25,7 @@ void close_elf(int elf);
  */
 void check_elf(unsigned char *e_ident)
 {
-	int index
+	int index;
 
 	for (index = 0; index < 4; index++)
 	{
@@ -315,3 +312,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(o);
 	return (0);
 }
+
